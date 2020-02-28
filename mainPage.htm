@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MainPage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/mainPage.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navigation-->
+    <div id="navigationBar">
+        <nav class="navbar navabar-expand-md navbar-lightsticky-top" style="background-color: #0f4c75;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h3 id="textHeader">YOLO ALGORITHM</h3>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <!--Video-->
+    <!--<div class="container-fluid" id="Video">
+        <div id="Video" class="d-flex flex-row">
+            <video src="Resources/output-file_yolo_out_py.avi" width="720" height="480" autoplay loop></video>
+            <div class="col-sm">
+                <div class="row-sm">
+                    <canvas id="myChart" width="3" height="2.5"> 
+                    <script src="JS/chart.js"></script>
+                </canvas>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4" id="listVideos">
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-secondary  bg-info text-center">Lista de videos</li>
+                    <li class="list-group-item list-group-item-action">Video 2</li>
+                    <li class="list-group-item list-group-item-action">Video 3</li>
+                    <li class="list-group-item list-group-item-action">video 4</li>
+                    <li class="list-group-item list-group-item-action">Video 5</li>
+                    <li class="list-group-item list-group-item-action">Video 6</li>
+                    <li class="list-group-item list-group-item-action">Video 7</li>
+                    <li class="list-group-item list-group-item-action">Video 8</li>
+                    <li class="list-group-item list-group-item-action">Video 9</li>
+                    <li class="list-group-item list-group-item-action">Video 10</li>
+                </ul>
+            </div>
+            <div class="col-6 ml-auto p-2">
+                <div id="Video">
+                    <video id="ActualVideo" src="Resources/output-file_yolo_out_py.avi" width="720" height="480" autoplay loop></video>
+                    <canvas id="myChart" width="70" height="30">
+                        <script src="JS/chart.js"></script>?
+                    </canvas>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+</body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

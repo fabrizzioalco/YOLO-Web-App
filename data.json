@@ -1,0 +1,46 @@
+{
+    "FPS": 30,
+    "capture_date": 1,
+    "duration": 7,
+    "filename": "content/trim",
+    "format": ".mp4",
+    "processing": [{
+        "algorithm": "YOLOv3",
+        "detections": [{
+                "frame": 1800,
+                "objects": {
+                    "car": 11,
+                    "person": 4,
+                    "truck": 1
+                },
+                "seconds": 60.0
+            },
+            {
+                "frame": 3600,
+                "objects": {
+                    "car": 10,
+                    "person": 2,
+                    "truck": 1
+                },
+                "seconds": 120.0
+            },
+            {
+                "frame": 5400,
+                "objects": {
+                    "car": 13,
+                    "truck": 1
+                },
+                "seconds": 180.0
+            },
+            {
+                "frame": 7200,
+                "objects": {
+                    "car": 12
+                },
+                "seconds": 240.0
+            }
+        ],
+        "processed_date": "2020-02-13 13:23:18.614200"
+    }],
+    "tags": null
+}
